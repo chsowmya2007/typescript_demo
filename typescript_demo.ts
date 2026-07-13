@@ -8,5 +8,13 @@ let Value: unknown=10;
 console.log("Data type of Value: "+typeof Value);
 Value="Hello world";
 console.log("Data type of Value: "+typeof Value);
+if(typeof Value==="string"){
+    console.log("Length of Value:"+ Value.length);
+}
 Value = true;
 console.log("Data type of Value: "+typeof Value);
+
+function Detail(message: string): void {
+    console.log("Branch:"+message);
+}
+Detail("Aiml");
