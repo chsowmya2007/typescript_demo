@@ -1,4 +1,12 @@
-let userName: string = "Sowmya";
+let Name: string = "Sowmya";
 let Age: number = 19;
-console.log(userName);
+console.log("Data type of name: "+typeof Name);
+console.log("Data type of Age: "+typeof Age);
+console.log(Name);
 console.log(Age);
+let Value: unknown=10;
+console.log("Data type of Value: "+typeof Value);
+Value="Hello world";
+console.log("Data type of Value: "+typeof Value);
+Value = true;
+console.log("Data type of Value: "+typeof Value);
