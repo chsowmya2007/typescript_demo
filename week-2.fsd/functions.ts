@@ -24,7 +24,7 @@ function findTotal(...marks: number[]): number {
 }
 
 // ---- Testing ----
-console.log(welcome("Pavani"));
+console.log(welcome("Sowmya"));
 
 console.log(getCourse());
 console.log(getCourse("Java"));
