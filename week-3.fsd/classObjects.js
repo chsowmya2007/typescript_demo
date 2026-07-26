@@ -20,7 +20,7 @@ class Student {
     }
 }
 // Creating Objects
-const student1 = new Student("Pavani", 101);
+const student1 = new Student("Sowmya", 101);
 const student2 = new Student("Rama", 102, "Computer Science");
 // Calling Methods
 student1.displayDetails();
