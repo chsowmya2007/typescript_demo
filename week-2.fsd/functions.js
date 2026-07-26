@@ -19,7 +19,7 @@ function findTotal(...marks) {
     return marks.reduce((sum, mark) => sum + mark, 0);
 }
 // ---- Testing ----
-console.log(welcome("Pavani"));
+console.log(welcome("Sowmya"));
 console.log(getCourse());
 console.log(getCourse("Java"));
 showStudent("Krishna");
