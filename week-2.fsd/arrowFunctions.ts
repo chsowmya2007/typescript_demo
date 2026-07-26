@@ -15,7 +15,7 @@ const greet = (name: string): string => `Hello, ${name}!`;
 // ---- Testing ----
 const value: number = 5;
 
-console.log(greet("Pavani"));
+console.log(greet("Sowmya"));
 
 const square = calculateSquare(value);
 console.log(`Square: ${square}`);
