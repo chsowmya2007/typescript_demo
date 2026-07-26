@@ -11,7 +11,7 @@ const calculateCube = (num) => {
 const greet = (name) => `Hello, ${name}!`;
 // ---- Testing ----
 const value = 5;
-console.log(greet("Pavani"));
+console.log(greet("Sowmya"));
 const square = calculateSquare(value);
 console.log(`Square: ${square}`);
 const cube = calculateCube(value);
