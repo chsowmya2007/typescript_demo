@@ -23,4 +23,3 @@ console.log(`Square: ${square}`);
 const cube = calculateCube(value);
 console.log(`Cube: ${cube}`);
 
-export {};
