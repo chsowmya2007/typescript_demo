@@ -53,4 +53,3 @@ emp.showSalary();           // Accessing private data through public method
 const mgr = new Manager("Shiva", 70000, "HR");
 mgr.showDepartment();
 
-export {};
