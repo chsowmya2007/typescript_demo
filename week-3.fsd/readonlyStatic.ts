@@ -48,5 +48,3 @@ console.log(`Student 1 Roll No: ${student1.rollNo}`);
 
 // Static property
 console.log(`Total Students: ${Student.totalStudents}`);
-
-export {};
