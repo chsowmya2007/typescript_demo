@@ -35,4 +35,3 @@ showStudent("Jhansi", "A");
 const totalMarks = findTotal(85, 90, 88, 95);
 console.log(`Total Marks: ${totalMarks}`);
 
-export {};
