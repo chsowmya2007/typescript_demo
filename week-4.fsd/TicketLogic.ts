@@ -1,4 +1,4 @@
-import { TAX_PERCENT, SERVICE_CHARGE } from "./Constants";
+import { TAX_PERCENT, SERVICE_CHARGE } from "./Constants.js";
 import { Traveler } from "./Passenger";
 
 export class RailwayTicket {
