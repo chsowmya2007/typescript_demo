@@ -41,4 +41,3 @@ student2.course = "Information Technology";
 console.log("After Updating Course:");
 student2.displayDetails();
 
-export {};
