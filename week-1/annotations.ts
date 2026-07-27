@@ -18,4 +18,3 @@ const message: string = getBookInfo(bookTitle, publishedYear);
 console.log(message);
 console.log(`Author(s): ${authors.join(", ")}`);
 console.log(`Best Seller: ${isBestSeller ? "Yes" : "No"}`);
-export{}
