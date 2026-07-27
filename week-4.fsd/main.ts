@@ -1,4 +1,4 @@
-import { RailwayTicket } from "./TicketLogic";
+import { RailwayTicket } from "./TicketLogic.js";
 import { Traveler } from "./Passenger";
 
 const passengerInfo: Traveler = {
