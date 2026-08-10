@@ -30,21 +30,17 @@ class Student {
     }
 }
 
-// Accessing static members
+
 Student.showCollege();
 
-// Creating objects
+
 const student1 = new Student("Pavani", 101);
 const student2 = new Student("Hanuma", 102);
 
-// Display details
-student1.displayDetails();
+
 student2.displayDetails();
 
-// Readonly property
 console.log(`Student 1 Roll No: ${student1.rollNo}`);
 
-// student1.rollNo = 201;   // Error: Cannot assign to 'rollNo' because it is a read-only property.
 
-// Static property
 console.log(`Total Students: ${Student.totalStudents}`);
