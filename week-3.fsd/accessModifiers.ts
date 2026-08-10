@@ -43,12 +43,10 @@ class Manager extends Employee {
 // Creating Objects
 const emp = new Employee("Sowmya", 50000, "IT");
 
-console.log(emp.name);      // Public - Accessible
+console.log(emp.name);    
 emp.displayDetails();
-emp.showSalary();           // Accessing private data through public method
+emp.showSalary();        
 
-// console.log(emp.salary);      // Error: salary is private
-// console.log(emp.department);  // Error: department is protected
 
 const mgr = new Manager("Shiva", 70000, "HR");
 mgr.showDepartment();
